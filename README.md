@@ -25,14 +25,4 @@ The app retrieves the following device information:
 - **SwiftUI**: Used for building user interfaces in a declarative manner.
 - **Firebase API**: Utilized for any backend operations, data storage, and retrieval.
 
-## Setup and Installation
 
-Provide instructions on how to set up and run your project locally.
-
-## Usage
-
-Explain how users can use your app, including any setup they need to do or things they need to know.
-
-## Contributing
-
-If you would like to contribute to the project, please fork the repository and create a pull request, or simply open an issue with the tag "enhancement".
