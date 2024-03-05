@@ -7,14 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DB0BB8432B54634B00C0EA63 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB0BB8422B54634B00C0EA63 /* HomeView.swift */; };
+		DB0BB8452B546FAD00C0EA63 /* makeCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB0BB8442B546FAD00C0EA63 /* makeCoordinator.swift */; };
 		DB39B4292B4C827400DED6D6 /* ActiveVibeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB39B4282B4C827400DED6D6 /* ActiveVibeApp.swift */; };
 		DB39B42B2B4C827400DED6D6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB39B42A2B4C827400DED6D6 /* ContentView.swift */; };
 		DB39B42D2B4C827600DED6D6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB39B42C2B4C827600DED6D6 /* Assets.xcassets */; };
 		DB39B4302B4C827600DED6D6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB39B42F2B4C827600DED6D6 /* Preview Assets.xcassets */; };
 		DB39B43A2B4C92A100DED6D6 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB39B4392B4C92A100DED6D6 /* LoginView.swift */; };
+		DB3F955F2B5ABA5F00D5F065 /* OnBoarding.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB3F955E2B5ABA5F00D5F065 /* OnBoarding.swift */; };
+		DB3F95612B5ABA6600D5F065 /* OffsetPageTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB3F95602B5ABA6600D5F065 /* OffsetPageTabView.swift */; };
+		DB3F95632B5ABA8F00D5F065 /* BoardingScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB3F95622B5ABA8F00D5F065 /* BoardingScreen.swift */; };
+		DB3F956B2B5ACB9700D5F065 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB3F956A2B5ACB9700D5F065 /* CustomTextField.swift */; };
+		DB3F956D2B5ACBD500D5F065 /* CustomSecureField.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB3F956C2B5ACBD500D5F065 /* CustomSecureField.swift */; };
+		DB3F956F2B5AE18D00D5F065 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB3F956E2B5AE18D00D5F065 /* ImagePicker.swift */; };
+		DB3F95712B5AEC5E00D5F065 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB3F95702B5AEC5E00D5F065 /* HomeViewModel.swift */; };
 		DB6112EC2B4F3E4F0001BCF6 /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB6112EB2B4F3E4F0001BCF6 /* String.swift */; };
 		DB6112F22B4FF6C80001BCF6 /* SignupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB6112F12B4FF6C80001BCF6 /* SignupView.swift */; };
-		DB6112F42B50463C0001BCF6 /* AuthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB6112F32B50463C0001BCF6 /* AuthView.swift */; };
 		DB6112FA2B504F5A0001BCF6 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = DB6112F92B504F5A0001BCF6 /* FirebaseAnalytics */; };
 		DB6112FC2B504F5A0001BCF6 /* FirebaseAnalyticsOnDeviceConversion in Frameworks */ = {isa = PBXBuildFile; productRef = DB6112FB2B504F5A0001BCF6 /* FirebaseAnalyticsOnDeviceConversion */; };
 		DB6112FE2B504F5A0001BCF6 /* FirebaseAnalyticsSwift in Frameworks */ = {isa = PBXBuildFile; productRef = DB6112FD2B504F5A0001BCF6 /* FirebaseAnalyticsSwift */; };
@@ -42,21 +50,39 @@
 		DB61132A2B504F5A0001BCF6 /* FirebaseRemoteConfigSwift in Frameworks */ = {isa = PBXBuildFile; productRef = DB6113292B504F5A0001BCF6 /* FirebaseRemoteConfigSwift */; };
 		DB61132C2B504F5A0001BCF6 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = DB61132B2B504F5A0001BCF6 /* FirebaseStorage */; };
 		DB61132E2B504F5A0001BCF6 /* FirebaseStorageCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = DB61132D2B504F5A0001BCF6 /* FirebaseStorageCombine-Community */; };
-		DB6113342B505AF40001BCF6 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DB6113332B505AF30001BCF6 /* GoogleService-Info.plist */; };
+		DB6113382B507C360001BCF6 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DB6113372B507C350001BCF6 /* GoogleService-Info.plist */; };
+		DBE5B8FC2B5A5F4100774CED /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBE5B8F92B5A5F4000774CED /* Home.swift */; };
+		DBE5B8FD2B5A5F4100774CED /* FitnessStepsGraphView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBE5B8FA2B5A5F4000774CED /* FitnessStepsGraphView.swift */; };
+		DBE5B8FE2B5A5F4100774CED /* FitnessRingCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBE5B8FB2B5A5F4100774CED /* FitnessRingCardView.swift */; };
+		DBE5B9042B5A609D00774CED /* Ring.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBE5B9022B5A609D00774CED /* Ring.swift */; };
+		DBE5B9052B5A609D00774CED /* Step.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBE5B9032B5A609D00774CED /* Step.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		DB39B4252B4C827300DED6D6 /* ActiveVibe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ActiveVibe.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB0BB8422B54634B00C0EA63 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		DB0BB8442B546FAD00C0EA63 /* makeCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = makeCoordinator.swift; sourceTree = "<group>"; };
+		DB39B4252B4C827300DED6D6 /* Mobilicis.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mobilicis.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB39B4282B4C827400DED6D6 /* ActiveVibeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActiveVibeApp.swift; sourceTree = "<group>"; };
 		DB39B42A2B4C827400DED6D6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		DB39B42C2B4C827600DED6D6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DB39B42F2B4C827600DED6D6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		DB39B4392B4C92A100DED6D6 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		DB3F955E2B5ABA5F00D5F065 /* OnBoarding.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OnBoarding.swift; sourceTree = "<group>"; };
+		DB3F95602B5ABA6600D5F065 /* OffsetPageTabView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OffsetPageTabView.swift; sourceTree = "<group>"; };
+		DB3F95622B5ABA8F00D5F065 /* BoardingScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BoardingScreen.swift; sourceTree = "<group>"; };
+		DB3F956A2B5ACB9700D5F065 /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
+		DB3F956C2B5ACBD500D5F065 /* CustomSecureField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSecureField.swift; sourceTree = "<group>"; };
+		DB3F956E2B5AE18D00D5F065 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+		DB3F95702B5AEC5E00D5F065 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
 		DB6112EB2B4F3E4F0001BCF6 /* String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
 		DB6112F12B4FF6C80001BCF6 /* SignupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupView.swift; sourceTree = "<group>"; };
-		DB6112F32B50463C0001BCF6 /* AuthView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthView.swift; sourceTree = "<group>"; };
-		DB6112F72B504D680001BCF6 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
-		DB6113332B505AF30001BCF6 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		DB6113372B507C350001BCF6 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		DB6113392B507C3A0001BCF6 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		DBE5B8F92B5A5F4000774CED /* Home.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		DBE5B8FA2B5A5F4000774CED /* FitnessStepsGraphView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FitnessStepsGraphView.swift; sourceTree = "<group>"; };
+		DBE5B8FB2B5A5F4100774CED /* FitnessRingCardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FitnessRingCardView.swift; sourceTree = "<group>"; };
+		DBE5B9022B5A609D00774CED /* Ring.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Ring.swift; sourceTree = "<group>"; };
+		DBE5B9032B5A609D00774CED /* Step.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Step.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +126,7 @@
 		DB39B41C2B4C827300DED6D6 = {
 			isa = PBXGroup;
 			children = (
+				DB6113372B507C350001BCF6 /* GoogleService-Info.plist */,
 				DB39B4272B4C827300DED6D6 /* ActiveVibe */,
 				DB39B4262B4C827300DED6D6 /* Products */,
 			);
@@ -108,7 +135,7 @@
 		DB39B4262B4C827300DED6D6 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				DB39B4252B4C827300DED6D6 /* ActiveVibe.app */,
+				DB39B4252B4C827300DED6D6 /* Mobilicis.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -116,8 +143,8 @@
 		DB39B4272B4C827300DED6D6 /* ActiveVibe */ = {
 			isa = PBXGroup;
 			children = (
-				DB6112F72B504D680001BCF6 /* GoogleService-Info.plist */,
-				DB6113332B505AF30001BCF6 /* GoogleService-Info.plist */,
+				DBE5B9012B5A606F00774CED /* Modal */,
+				DB6113392B507C3A0001BCF6 /* GoogleService-Info.plist */,
 				DB6112EA2B4F3E180001BCF6 /* Extensions */,
 				DB39B4362B4C916300DED6D6 /* Views */,
 				DB39B4282B4C827400DED6D6 /* ActiveVibeApp.swift */,
@@ -139,9 +166,18 @@
 		DB39B4362B4C916300DED6D6 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				DB3F95602B5ABA6600D5F065 /* OffsetPageTabView.swift */,
 				DB39B4392B4C92A100DED6D6 /* LoginView.swift */,
 				DB6112F12B4FF6C80001BCF6 /* SignupView.swift */,
-				DB6112F32B50463C0001BCF6 /* AuthView.swift */,
+				DBE5B8FB2B5A5F4100774CED /* FitnessRingCardView.swift */,
+				DBE5B8FA2B5A5F4000774CED /* FitnessStepsGraphView.swift */,
+				DBE5B8F92B5A5F4000774CED /* Home.swift */,
+				DB0BB8422B54634B00C0EA63 /* HomeView.swift */,
+				DB3F956A2B5ACB9700D5F065 /* CustomTextField.swift */,
+				DB3F956C2B5ACBD500D5F065 /* CustomSecureField.swift */,
+				DB3F955E2B5ABA5F00D5F065 /* OnBoarding.swift */,
+				DB3F956E2B5AE18D00D5F065 /* ImagePicker.swift */,
+				DB3F95702B5AEC5E00D5F065 /* HomeViewModel.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -150,16 +186,27 @@
 			isa = PBXGroup;
 			children = (
 				DB6112EB2B4F3E4F0001BCF6 /* String.swift */,
+				DB0BB8442B546FAD00C0EA63 /* makeCoordinator.swift */,
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		DBE5B9012B5A606F00774CED /* Modal */ = {
+			isa = PBXGroup;
+			children = (
+				DB3F95622B5ABA8F00D5F065 /* BoardingScreen.swift */,
+				DBE5B9022B5A609D00774CED /* Ring.swift */,
+				DBE5B9032B5A609D00774CED /* Step.swift */,
+			);
+			path = Modal;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		DB39B4242B4C827300DED6D6 /* ActiveVibe */ = {
+		DB39B4242B4C827300DED6D6 /* Mobilicis */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DB39B4332B4C827600DED6D6 /* Build configuration list for PBXNativeTarget "ActiveVibe" */;
+			buildConfigurationList = DB39B4332B4C827600DED6D6 /* Build configuration list for PBXNativeTarget "Mobilicis" */;
 			buildPhases = (
 				DB39B4212B4C827300DED6D6 /* Sources */,
 				DB39B4222B4C827300DED6D6 /* Frameworks */,
@@ -169,7 +216,7 @@
 			);
 			dependencies = (
 			);
-			name = ActiveVibe;
+			name = Mobilicis;
 			packageProductDependencies = (
 				DB6112F92B504F5A0001BCF6 /* FirebaseAnalytics */,
 				DB6112FB2B504F5A0001BCF6 /* FirebaseAnalyticsOnDeviceConversion */,
@@ -200,7 +247,7 @@
 				DB61132D2B504F5A0001BCF6 /* FirebaseStorageCombine-Community */,
 			);
 			productName = ActiveVibe;
-			productReference = DB39B4252B4C827300DED6D6 /* ActiveVibe.app */;
+			productReference = DB39B4252B4C827300DED6D6 /* Mobilicis.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -218,7 +265,7 @@
 					};
 				};
 			};
-			buildConfigurationList = DB39B4202B4C827300DED6D6 /* Build configuration list for PBXProject "ActiveVibe" */;
+			buildConfigurationList = DB39B4202B4C827300DED6D6 /* Build configuration list for PBXProject "Mobilicis" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -234,7 +281,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				DB39B4242B4C827300DED6D6 /* ActiveVibe */,
+				DB39B4242B4C827300DED6D6 /* Mobilicis */,
 			);
 		};
 /* End PBXProject section */
@@ -246,7 +293,7 @@
 			files = (
 				DB39B4302B4C827600DED6D6 /* Preview Assets.xcassets in Resources */,
 				DB39B42D2B4C827600DED6D6 /* Assets.xcassets in Resources */,
-				DB6113342B505AF40001BCF6 /* GoogleService-Info.plist in Resources */,
+				DB6113382B507C360001BCF6 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,11 +304,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DB3F95712B5AEC5E00D5F065 /* HomeViewModel.swift in Sources */,
 				DB39B43A2B4C92A100DED6D6 /* LoginView.swift in Sources */,
+				DB3F956D2B5ACBD500D5F065 /* CustomSecureField.swift in Sources */,
+				DB0BB8432B54634B00C0EA63 /* HomeView.swift in Sources */,
+				DBE5B8FC2B5A5F4100774CED /* Home.swift in Sources */,
+				DBE5B9052B5A609D00774CED /* Step.swift in Sources */,
+				DB3F955F2B5ABA5F00D5F065 /* OnBoarding.swift in Sources */,
+				DBE5B8FD2B5A5F4100774CED /* FitnessStepsGraphView.swift in Sources */,
+				DB0BB8452B546FAD00C0EA63 /* makeCoordinator.swift in Sources */,
+				DBE5B8FE2B5A5F4100774CED /* FitnessRingCardView.swift in Sources */,
+				DB3F956B2B5ACB9700D5F065 /* CustomTextField.swift in Sources */,
+				DB3F95612B5ABA6600D5F065 /* OffsetPageTabView.swift in Sources */,
 				DB39B42B2B4C827400DED6D6 /* ContentView.swift in Sources */,
-				DB6112F42B50463C0001BCF6 /* AuthView.swift in Sources */,
+				DBE5B9042B5A609D00774CED /* Ring.swift in Sources */,
 				DB6112EC2B4F3E4F0001BCF6 /* String.swift in Sources */,
 				DB39B4292B4C827400DED6D6 /* ActiveVibeApp.swift in Sources */,
+				DB3F956F2B5AE18D00D5F065 /* ImagePicker.swift in Sources */,
+				DB3F95632B5ABA8F00D5F065 /* BoardingScreen.swift in Sources */,
 				DB6112F22B4FF6C80001BCF6 /* SignupView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -395,7 +455,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"ActiveVibe/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "../GoogleService-Info.plist";
 				DEVELOPMENT_TEAM = 3LUNZ43L4D;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -424,7 +484,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"ActiveVibe/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "../GoogleService-Info.plist";
 				DEVELOPMENT_TEAM = 3LUNZ43L4D;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -449,7 +509,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		DB39B4202B4C827300DED6D6 /* Build configuration list for PBXProject "ActiveVibe" */ = {
+		DB39B4202B4C827300DED6D6 /* Build configuration list for PBXProject "Mobilicis" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				DB39B4312B4C827600DED6D6 /* Debug */,
@@ -458,7 +518,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DB39B4332B4C827600DED6D6 /* Build configuration list for PBXNativeTarget "ActiveVibe" */ = {
+		DB39B4332B4C827600DED6D6 /* Build configuration list for PBXNativeTarget "Mobilicis" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				DB39B4342B4C827600DED6D6 /* Debug */,
